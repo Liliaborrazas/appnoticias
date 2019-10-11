@@ -9,11 +9,6 @@
   background: red;
   color:blue;
 }
-.lista{
-  list-style: none;
-  margin: 0 auto;
-  padding: 0;
-} 
 
 .card-container{
   margin: 40px;
@@ -26,6 +21,7 @@
   width: 18rem;
   border:3px solid blue;
   border-radius: 20px;
-  display: inline-block;
-  
+  display: inline-flex;
+  height: 35rem;
+  margin: 10px;
 }
