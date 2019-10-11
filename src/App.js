@@ -16,8 +16,6 @@ export default function App() {
   const respuesta = await axios(urll);
   const response = respuesta.data.articles;
     setNews(response);
-    console.log(response)
-    // console.log(response[1].url)
   }
   
   return (
